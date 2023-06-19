@@ -1,0 +1,173 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 0 1em 0;
+    font-size: 1em;
+    line-height: 1.5rem;
+    color: #414142;
+    font-family: Arial;
+    background-color: #ededed;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.element p {
+    padding: 0 1rem;
+}
+
+section {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #D64078;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.element {
+    border: solid 3px #6AC5AC;
+    position: relative;
+}
+
+.start {
+    top: 0;
+    left: 0;
+    padding: 0 3px 3px 0;
+}
+
+.end {
+    right: 0;
+    bottom: 0;
+    padding: 3px 0 0 3px;
+}
+
+.start,
+.end {
+    position: absolute;
+    background-color: #6AC5AC;
+    color: #414142;
+    line-height: 1em;
+}
+
+.ipsum {
+    color: #734161;
+    background-color: #b9b5b5aa;
+}
+
+.red>.start,
+.red>.end {
+    color: white;
+    background-color: #D64078;
+}
+
+.yellow>.start,
+.yellow>.end {
+    background-color: #FDC72F;
+}
+
+.green>.start,
+.green>.end {
+    background-color: #6AC5AC;
+}
+
+.red {
+    border: solid #D64078 3px;
+}
+
+.yellow {
+    border: solid #FDC72F 3px;
+}
+
+.green {
+    border: solid #6AC5AC 3px;
+}
+
+.content {
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.three-column {
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+
+    padding: 1em;
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+nav {
+    width: 200px;
+}
+
+.flex-column {
+    position: relative;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.initial,
+.none,
+.flex,
+.tall {
+    position: relative;
+}
+
+.initial {
+    -webkit-flex: initial;
+    flex: initial;
+    width: 200px;
+    min-width: 100px;
+}
+
+.none {
+    -webkit-flex: none;
+    flex: none;
+    width: 200px;
+}
+
+.flex {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.tall {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.vertical {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered {
+    position: relative;
+}
