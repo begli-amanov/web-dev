@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     padding: 0 0 1em 0;
@@ -35,45 +34,44 @@ body {
     right: 0;
     bottom: 0;
     padding: 3px 0 0 3px;
-
 }
 
 .element {
-    border: solid #6AC5AC 3px;
+    border: solid #6ac5ac 3px;
     position: relative;
 }
 
 .red {
-    border: solid #D64078 3px;
+    border: solid #d64078 3px;
 }
 
 .yellow {
-    border: solid #FDC72F 3px;
+    border: solid #fdc72f 3px;
 }
 
 .green {
-    border: solid #6AC5AC 3px;
+    border: solid #6ac5ac 3px;
 }
 
 .red>.start,
 .red>.end {
-    background-color: #D64078;
+    background-color: #d64078;
     color: white;
 }
 
 .yellow>.start,
 .yellow>.end {
-    background-color: #FDC72F;
+    background-color: #fdc72f;
 }
 
 .green>.start,
 .green>.end {
-    background-color: #6AC5AC;
+    background-color: #6ac5ac;
 }
 
 a {
     text-decoration: none;
-    color: #D64078;
+    color: #d64078;
 }
 
 a:hover {
@@ -100,8 +98,10 @@ section p {
     flex: 1;
 }
 
-
-
+.sec {
+    position: relative;
+    flex: 1;
+}
 
 .flex-container {
     height: 400px;
@@ -111,7 +111,6 @@ section p {
 
     display: -webkit-flex;
     display: flex;
-
 }
 
 .flex-item {
@@ -163,7 +162,6 @@ section p {
     align-self: stretch;
 }
 
-
 .flex-1 {
     flex: 2;
 }
@@ -174,4 +172,25 @@ section p {
 
 .flex-3 {
     flex: 1;
+}
+
+.grid {
+    display: grid;
+    padding: 2rem;
+    grid-gap: 1rem;
+
+    /* responsive layout in comparison to 1fr 1fr 1fr */
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.cell {
+    padding: 3rem;
+    background-color: #bddab3;
+}
+
+.flex {
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
