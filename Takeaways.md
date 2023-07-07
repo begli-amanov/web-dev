@@ -1,26 +1,28 @@
-# UX part
+# Web Design
+
+
+## UX part
+
+
+### Lesson 1
 
 1. **Always** start a  web project with a brief.
-
 2. In the brief, be clear about **what** you're making and **who** are you making it for.
-
 3. Be as **detailed** as possible regarding the final content and include that in the brief
-
 4. The project brief will serve as a **basis** for the wireframe
 
-## What are wireframes (sketch, blueprint) are?
 
-A wireframe is a low-fidelity version of the final design
+### Lesson 5 What are wireframes (sketch, blueprint) are?
 
-A wireframe should display the final content as well as its structure
+a. A wireframe is a low-fidelity version of the final design
+b. wireframe should display the final content as well as its structure
+c. wireframe should be devoid of any intentional aesthetic decisions like color or typography.
 
-A wireframe should be devoid of any intentional aesthetic decisions like color or typography.
 
-# UI part
+## UI part
 
 
 ## Lesson 6
-
 Picking the right designing tool
 We will use Figma
 
@@ -39,3 +41,4 @@ There are also Secondary and tertiary colors.
 5. Saturation - how reach the color is
 6. Brightness
 7. Color temperatures (blue, green are cold colors and so on...)
+8. HSB (HUE, SATURATION, BRIGHTNESS)
