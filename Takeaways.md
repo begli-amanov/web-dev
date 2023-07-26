@@ -137,4 +137,12 @@ Tips about BUTTONS:
 ## Lesson 19
 ### Footers
 
-A Website footer is an area positioned at the bottom of every page on a website, right below the main content.
+1. A Website footer is an area positioned at the bottom of every page on a website, right below the main content.
+2. Footers usually contain the information that improves the usability of the website.
+3. Footers also display content that doesn't belong anywhere else, like copyrighting text. external links and sitemaps
+
+
+## Lesson 20
+### Testimonials
+
+1. 
