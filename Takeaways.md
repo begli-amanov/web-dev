@@ -145,4 +145,14 @@ Tips about BUTTONS:
 ## Lesson 20
 ### Testimonials
 
-1. 
+1. Nice things that your customers hast to say about you and your product/business.
+2. Testimonials are there to establish credibility with your audience.
+3. Never ever use fake testimonials. Its unethical and illegal.
+
+
+## Lesson 21
+### Tabs
+
+1. A tab is a UI element where content is separated into different panels, with only one panel visible at a time.
+2. Tabs are used for displaying **large** amounts of content in a relatively **small** area.
+3.  While tabs can be styled differently the working principles are the same.
