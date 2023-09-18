@@ -92,7 +92,7 @@ There are also Secondary and tertiary colors.
 3. Some icons works just fine by themselves but mostly we would need to pair them with text.
 
 #### Images
-1. Be hones when using images. Keep it real. 
+1. Be honest when using images. Keep it real. 
 
 
 ## Lesson 14
