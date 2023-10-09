@@ -9,5 +9,79 @@
 
 
 .gradient {
-    background-image: linear-gradient(to right, #f6f1d3, #648880 85%, #293f50);
+    background-image: linear-gradient(to right bottom, #f6f1d3, #648880, #293f50);
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+/* The list style properties discussed thus far, list-style-type and list-style-position, can be combined into one shorthand list-style property value
+
+ul {
+    list-style: circle inside;
+}
+
+ol {
+    list-style: lower-roman;
+} */
+
+
+/* When changing the display property value to inline or inline-block, the list item marker, be it a bullet, number, or other style, is removed. */
+/* li {
+    display: inline-block;
+    margin: 0 10px;
+} */
+
+/* If the list item marker is needed, floating each <li> element is a better option than changing the display property. */
+ul {
+    list-style-type: disc;
+}
+
+/* an example how to style lists */
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    background: #395870;
+    background: linear-gradient(#49708f, #293f50);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: #314b60;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+
+.navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* adding images as instead of list item markers */
+li {
+    background: url("arrow.png") 0 50% no-repeat;
+    list-style-type: none;
+    /* padding-left: 12px; */
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
 }
