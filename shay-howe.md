@@ -47,4 +47,9 @@ Datalist tag for input type like Select
 
 Optgroup tag for nesting options in drop down menu of select or datalist
 
-Template tag for more dynamic control of the web page 
+Template tag for more dynamic control of the web page
+
+
+
+### Buttons
+By default, the `<button>` element acts as if it has a type attribute value of submit, so the type attribute and value may be omitted from the `<button>` element
