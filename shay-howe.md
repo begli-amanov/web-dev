@@ -8,11 +8,10 @@ Since there isn’t a space between the paragraph type selector and the mustard 
 The best practice is to not prefix a class selector with a type selector. Generally we want to select any element with a given class, not just one type of element. And following this best practice, our new combined selector would be better as `.hotdog .mustard`.
 
 
-
 ### Sizing Inline-Level Elements
 Please keep in mind that inline-level elements will not accept the width and height properties or any values tied to them. Block and inline-block elements will, however, accept the width and height properties and their corresponding values.
 
-
+op
 ### Margin & Padding on Inline-Level Elements
 Inline-level elements are affected a bit differently than block and inline-block elements when it comes to margins and padding. Margins only work horizontally—left and right—on inline-level elements. Padding works on all four sides of inline-level elements; however, the vertical padding—the top and bottom—may bleed into the lines above and below an element.
 
@@ -50,6 +49,34 @@ Optgroup tag for nesting options in drop down menu of select or datalist
 Template tag for more dynamic control of the web page
 
 
-
 ### Buttons
 By default, the `<button>` element acts as if it has a type attribute value of submit, so the type attribute and value may be omitted from the `<button>` element
+
+
+### Labels ans inputs
+Labels may include a for attribute. The value of the for attribute should be the same as the value of the id attribute on the form control the label corresponds to. Matching up the for and id attribute values ties the two elements together, allowing users to click on the <label> element to bring focus to the proper form control.
+
+
+### CSS
+One of the important stuff after `CSS RESET` is the following rule set:
+
+`*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+`
+
+### Vertical Align
+The vertical-align property works only with inline and table-cell elements—it won’t work for block, inline-block, or any other element levels.
+
+
+### Vertically centering text within a button with line-height
+Line height may also be used to vertically center a single line of text within an element. Using the same property value for the line-height and height properties will vertically center the text:
+
+height-22px
+line-height-22px
+
+
+### Semantic difference between TH and TD
+table header element provides semantic value by signifying that the data within the cell is a heading, while the <td> element only represents a generic piece of data.
