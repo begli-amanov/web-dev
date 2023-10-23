@@ -174,7 +174,7 @@ tfoot tr:last-child td:first-child {
     border-bottom-left-radius: 5px;
 }
 
-div {
+/* div {
     background: -webkit-linear-gradient(#a1d3b0, #f6f1d3);
     background: -moz-linear-gradient(#a1d3b0, #f6f1d3);
     background: linear-gradient(#a1d3b0, #f6f1d3);
@@ -182,4 +182,34 @@ div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+} */
+
+
+.box-set {
+    width: 100%;
+    background-color: #eaeaed;
+    overflow: hidden;
+
 }
+
+.box {
+    background-color: #2db34a;
+    float: left;
+    width: 29.615861214%;
+    margin: 1.858736059%;
+    border-radius: 6px;
+    padding: 20px 0 ;
+    color: #fff;
+    text-align: center;
+    font-weight: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+/* .box-set::before, .box-set::after {
+    content: '';
+    display: table;
+}
+
+.box-set::before, .box-set::after {
+    clear: both;
+}
+ */

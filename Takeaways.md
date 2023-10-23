@@ -155,4 +155,4 @@ Tips about BUTTONS:
 
 1. A tab is a UI element where content is separated into different panels, with only one panel visible at a time.
 2. Tabs are used for displaying **large** amounts of content in a relatively **small** area.
-3.  While tabs can be styled differently the working principles are the same.
+3. While tabs can be styled differently the working principles are the same.
