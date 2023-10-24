@@ -185,23 +185,47 @@ tfoot tr:last-child td:first-child {
 } */
 
 
-.box-set {
-    width: 100%;
-    background-color: #eaeaed;
-    overflow: hidden;
+/* Z-INDEX Demonstration */
 
+.box-set {
+    background: #eaeaed;
+    position: relative;
+    padding: 20px;
+    height: 160px;
 }
 
 .box {
-    background-color: #2db34a;
-    float: left;
-    width: 29.615861214%;
-    margin: 1.858736059%;
+    background: #2db34a;
+    border: 2px solid #ff7b29;
+    position: absolute;
+    height: 80px;
     border-radius: 6px;
-    padding: 20px 0 ;
-    color: #fff;
+    width: 80px;
+    line-height: 80px;
     text-align: center;
-    font-weight: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.box-1 {
+    left: 10px;
+    top: 10px;
+}
+
+.box-2 {
+    bottom: 10px;
+    left: 70px;
+    z-index: 3;
+}
+
+.box-3 {
+    left: 130px;
+    top: 10px;
+    z-index: 2;
+}
+
+.box-4 {
+    bottom: 10px;
+    left: 190px;
+    z-index: 1;
 }
 
 /* .box-set::before, .box-set::after {
