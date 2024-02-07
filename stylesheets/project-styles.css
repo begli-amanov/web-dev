@@ -82,6 +82,7 @@ li {
 }
 
 iframe {
+    margin-top: 20px;
     width: 500px;
     height: 500px;
 }
@@ -184,7 +185,6 @@ tfoot tr:last-child td:first-child {
     box-sizing: border-box;
 } */
 
-
 /* Z-INDEX Demonstration */
 
 .box-set {
@@ -237,3 +237,26 @@ tfoot tr:last-child td:first-child {
     clear: both;
 }
  */
+
+
+/*
+  ========================================
+  Inputs
+  ========================================
+*/
+
+.wrapper {
+    margin: 0 auto;
+    background: #293f50;
+    padding: 22px;
+}
+
+.login-form {
+    height: 600px;
+    width: 500px;
+}
+
+label {
+    font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #eaeaed;
+}

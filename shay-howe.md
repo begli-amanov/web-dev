@@ -87,3 +87,17 @@ table header element provides semantic value by signifying that the data within 
 The DOM, or Document Object Model, is an API for HTML and XML documents which provides their structural representation. In our case, we are speaking specifically to HTML documents, thus the DOM represents all of the different elements and their relationship to each other.
 
 The representation can be considered a tree of sorts, with each element having a different relationship with those around it. Elements nested inside others have a parent and child relationship while elements that share the same parent have a sibling relationship.
+
+
+### Clearfix
+
+.container::before, .container::after {
+  content: "";
+  display: table;
+}
+.container::after {
+  clear: both;
+}
+.container {
+  zoom: 1;
+}
