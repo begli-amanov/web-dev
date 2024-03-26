@@ -23,13 +23,11 @@ Margins and padding work like normal for block and inline-block elements.
 
 2. Another way to remove the white space between inline-block elements is to open an HTML comment directly after an inline-block element’s closing tag. Then, close the HTML comment immediately before the next inline-block element’s opening tag. Doing this allows inline-block elements to begin and end on separate lines of HTML and “comments out” any potential spaces between the elements.
 
-
 ### When to Use an Image Element vs. a Background Image
 
 The `<img>` element within HTML is the preferred option when the image being used holds semantic value and its content is relevant to the content of the page.
 
 The `background` or `background-image` property within CSS is the preferred option when the image being used is part of the design or user interface of the page. As such, it’s not directly relevant to the content of the page.
-
 
 ### Audio
 

@@ -152,6 +152,10 @@ body {
     font: 1rem/1.5rem sans-serif;
 }
 
+.cont-pad {
+    padding: .3rem 1rem;
+}
+
 
 
 /*
@@ -161,7 +165,7 @@ body {
 */
 
 .container {
-    width: 60rem;
+    width: 30rem;
     margin: 0 auto;
     padding-left: 1.875rem;
     padding-right: 1.875rem;
@@ -178,6 +182,10 @@ fieldset {
     margin: 0;
 }
 
+.account-info {
+    display: flex;
+}
+
 /*
   ========================================
   Typography
@@ -186,4 +194,47 @@ fieldset {
 
 h2 {
     text-align: center;
+}
+
+/*
+  ========================================
+  Components
+  ========================================
+*/
+
+/* Buttons */
+
+.btn {
+    color: #fff;
+    font: 1rem/1.5rem "Poppins", sans-serif;
+    border: .0625rem solid #a855f7;
+    background-color: #a855f7;
+    border-radius: .375rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #8f3ade;
+}
+
+/*
+  ========================================
+  Flexbox practice part
+  ========================================
+*/
+
+.flex-container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: silver;
+}
+
+.flex-item {
+    margin: 5px;
+    background-color: skyblue;
+}
+
+.item2 {
+    flex: none;
 }
