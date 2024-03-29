@@ -1,255 +1,227 @@
 <!DOCTYPE html>
 
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/stylesheets/project-styles.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="/stylesheets/project-styles.css">
-</head>
+	<body>
+		<div class="container gradient"></div>
 
-<body>
+		<!-- start attribute shows from which number should the ordered list start -->
+		<ol start="30">
+			<li>A</li>
 
+			<li>b</li>
 
+			<li>c</li>
+		</ol>
 
+		<!-- reversed attribute makes order of the ordered list to be displayed reversed -->
 
+		<ol reversed>
+			<li>A</li>
 
+			<li>b</li>
 
+			<li>c</li>
+		</ol>
 
+		<!-- The value attribute may be used on an individual <li> element within an ordered list to change its value within the list -->
 
+		<ol>
+			<li value="10">A</li>
 
-  <div class="container gradient">
+			<li>b</li>
 
+			<li>c</li>
+		</ol>
 
+		<dl>
+			<dt>study</dt>
+			<dd>
+				The devotion of time and attention to acquiring knowledge on an academic
+				subject, especially by means of books
+			</dd>
+			<dt>design</dt>
+			<dd>
+				A plan or drawing produced to show the look and function or workings of
+				a building, garment, or other object before it is built or made
+			</dd>
+			<dd>
+				Purpose, planning, or intention that exists or is thought to exist
+				behind an action, fact, or material object
+			</dd>
+			<dt>business</dt>
+			<dt>work</dt>
+			<dd>A person's regular occupation, profession, or trade</dd>
+		</dl>
 
-  </div>
+		<ol>
+			<li>Walk the dog</li>
+			<li>Fold laundry</li>
+			<li>
+				Go to the grocery and buy:
+				<ul>
+					<li>Milk</li>
+					<li>Chocolate</li>
+					<li>Bier</li>
+				</ul>
+			</li>
+			<li>Make dinner</li>
+		</ol>
 
-  <!-- start attribute shows from which number should the ordered list start -->
-  <ol start="30">
-    <li>A</li>
+		<div class="list">
+			<ul>
+				<li>Orange</li>
+				<li>Green</li>
+				<li>Blue</li>
+			</ul>
+		</div>
 
-    <li>b</li>
-
-    <li>c</li>
-  </ol>
-
-  <!-- reversed attribute makes order of the ordered list to be displayed reversed -->
-
-  <ol reversed>
-    <li>A</li>
-
-    <li>b</li>
-
-    <li>c</li>
-  </ol>
-
-  <!-- The value attribute may be used on an individual <li> element within an ordered list to change its value within the list -->
-
-  <ol>
-    <li value="10">A</li>
-
-    <li>b</li>
-
-    <li>c</li>
-  </ol>
-
-
-  <dl>
-    <dt>study</dt>
-    <dd>The devotion of time and attention to acquiring knowledge on an academic subject, especially by means of books
-    </dd>
-    <dt>design</dt>
-    <dd>A plan or drawing produced to show the look and function or workings of a building, garment, or other object
-      before it is built or made</dd>
-    <dd>Purpose, planning, or intention that exists or is thought to exist behind an action, fact, or material object
-    </dd>
-    <dt>business</dt>
-    <dt>work</dt>
-    <dd>A person's regular occupation, profession, or trade</dd>
-  </dl>
-
-
-  <ol>
-    <li>Walk the dog</li>
-    <li>Fold laundry</li>
-    <li>
-      Go to the grocery and buy:
-      <ul>
-        <li>Milk</li>
-        <li>Chocolate</li>
-        <li>Bier</li>
-      </ul>
-    </li>
-    <li>Make dinner</li>
-  </ol>
-
-  <div class="list">
-
-    <ul>
-      <li>Orange</li>
-      <li>Green</li>
-      <li>Blue</li>
-    </ul>
-
-  </div>
-
-
-  <nav class="navigation">
-    <ul>
-      <li><a href="#">Profile</a></li><!--
+		<nav class="navigation">
+			<ul>
+				<li><a href="#">Profile</a></li>
+				<!--
       -->
-      <li><a href="#">Settings</a></li><!--
+				<li><a href="#">Settings</a></li>
+				<!--
       -->
-      <li><a href="#">Notifications</a></li><!--
+				<li><a href="#">Notifications</a></li>
+				<!--
       -->
-      <li><a href="#">Logout</a></li>
-    </ul>
-  </nav>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</nav>
 
-  <audio controls>
-    <source src="jazz.ogg" type="audio/ogg">
-    <source src="jazz.mp3" type="audio/mpeg">
-    <source src="jazz.wav" type="audio/wav">
-    Please <a href="jazz.mp3" download>download</a> the audio file.
-  </audio>
+		<audio controls>
+			<source src="jazz.ogg" type="audio/ogg" />
+			<source src="jazz.mp3" type="audio/mpeg" />
+			<source src="jazz.wav" type="audio/wav" />
+			Please <a href="jazz.mp3" download>download</a> the audio file.
+		</audio>
 
+		<iframe src="https://www.google.com/maps/embed" frameborder="0"></iframe>
+		<div class="flex-parent">
+			<div class="flex-child"></div>
 
-  <iframe src="https://www.google.com/maps/embed" frameborder="0"></iframe>
-  <div class="flex-parent">
-    <div class="flex-child"></div>
+			<form action="" method="post">
+				<div class="group">
+					<label for=""><input type="text" name="" id="" /></label>
+				</div>
+				<div class="group">
+					<label for=""><input type="number" name="" id="" /></label>
+				</div>
+			</form>
 
+			<div class="flex-child"></div>
+		</div>
 
-    <form action="" method="post">
-      <div class="group"><label for=""><input type="text" name="" id=""></label></div>
-      <div class="group"><label for=""><input type="number" name="" id=""></label></div>
-    </form>
+		<progress value="50%" max="100">50%</progress>
 
-    <div class="flex-child"></div>
-  </div>
+		<fieldset>
+			<legend>Favorite</legend>
+			<div class="group">
+				<input type="color" />
+				<datalist id="color-list">
+					<option value="1"></option>
+					<option value="2"></option>
+					<option value="3"></option>
+					<option value="4"></option>
+					<option value="5"></option>
+					<option value="6"></option>
+					<option value="7"></option>
+					<option value="8"></option>
+					<option value="9"></option>
+				</datalist>
+			</div>
+		</fieldset>
 
-  <progress value="50%" max="100">50%</progress>
+		<table>
+			<thead>
+				<tr>
+					<th scope="col" colspan="2">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<strong class="book-title">Don&#8217;t Make Me Think</strong>
+						<span class="text-offset">by Steve Krug</span>
+					</td>
+					<td class="item-stock">In Stock</td>
+					<td class="item-qty">1</td>
+					<td class="item-price">$30.02</td>
+				</tr>
+				<tr>
+					<td>
+						<strong class="book-title">A Project Guide to UX Design</strong>
+						<span class="text-offset"
+							>by Russ Unger &#38; Carolyn Chandler</span
+						>
+					</td>
+					<td class="item-stock">In Stock</td>
+					<td class="item-qty">2</td>
+					<td class="item-price">
+						$52.94
+						<span class="text-offset item-multiple">$26.47 &#215; 2</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<strong class="book-title">Introducing HTML5</strong>
+						<span class="text-offset">by Bruce Lawson &#38; Remy Sharp</span>
+					</td>
+					<td class="item-stock">Out of Stock</td>
+					<td class="item-qty">1</td>
+					<td class="item-price">$22.23</td>
+				</tr>
+				<tr>
+					<td>
+						<strong class="book-title">Bulletproof Web Design</strong>
+						<span class="text-offset">by Dan Cederholm</span>
+					</td>
+					<td class="item-stock">In Stock</td>
+					<td class="item-qty">1</td>
+					<td class="item-price">$30.17</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr class="text-offset">
+					<td colspan="3">Subtotal</td>
+					<td>$135.36</td>
+				</tr>
+				<tr class="text-offset">
+					<td colspan="3">Tax</td>
+					<td>$13.54</td>
+				</tr>
+				<tr>
+					<td colspan="3">Total</td>
+					<td>$148.90</td>
+				</tr>
+			</tfoot>
+		</table>
 
-  <fieldset>
-    <legend>Favorite</legend>
-    <div class="group">
-      <input type="color">
-      <datalist id="color-list">
-        <option value="1"></option>
-        <option value="2"></option>
-        <option value="3"></option>
-        <option value="4"></option>
-        <option value="5"></option>
-        <option value="6"></option>
-        <option value="7"></option>
-        <option value="8"></option>
-        <option value="9"></option>
-      </datalist>
-    </div>
-  </fieldset>
+		<div class="box-set">
+			<figure class="box box-1">Box 1</figure>
+			<figure class="box box-2">Box 2</figure>
+			<figure class="box box-3">Box 3</figure>
+			<figure class="box box-4">Box 4</figure>
+		</div>
 
-  <table>
-    <thead>
-      <tr>
-        <th scope="col" colspan="2">Item</th>
-        <th scope="col">Qty</th>
-        <th scope="col">Price</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <strong class="book-title">Don&#8217;t Make Me Think</strong>
-          <span class="text-offset">by Steve Krug</span>
-        </td>
-        <td class="item-stock">In Stock</td>
-        <td class="item-qty">1</td>
-        <td class="item-price">$30.02</td>
-      </tr>
-      <tr>
-        <td>
-          <strong class="book-title">A Project Guide to UX Design</strong>
-          <span class="text-offset">by Russ Unger &#38; Carolyn Chandler</span>
-        </td>
-        <td class="item-stock">In Stock</td>
-        <td class="item-qty">2</td>
-        <td class="item-price">$52.94 <span class="text-offset item-multiple">$26.47 &#215; 2</span></td>
-      </tr>
-      <tr>
-        <td>
-          <strong class="book-title">Introducing HTML5</strong>
-          <span class="text-offset">by Bruce Lawson &#38; Remy Sharp</span>
-        </td>
-        <td class="item-stock">Out of Stock</td>
-        <td class="item-qty">1</td>
-        <td class="item-price">$22.23</td>
-      </tr>
-      <tr>
-        <td>
-          <strong class="book-title">Bulletproof Web Design</strong>
-          <span class="text-offset">by Dan Cederholm</span>
-        </td>
-        <td class="item-stock">In Stock</td>
-        <td class="item-qty">1</td>
-        <td class="item-price">$30.17</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr class="text-offset">
-        <td colspan="3">Subtotal</td>
-        <td>$135.36</td>
-      </tr>
-      <tr class="text-offset">
-        <td colspan="3">Tax</td>
-        <td>$13.54</td>
-      </tr>
-      <tr>
-        <td colspan="3">Total</td>
-        <td>$148.90</td>
-      </tr>
-    </tfoot>
-  </table>
+		<section class="login-form wrapper">
+			<form action="login" method="post">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" />
 
-
-
-  <div class="box-set">
-    <figure class="box box-1">Box 1</figure>
-    <figure class="box box-2">Box 2</figure>
-    <figure class="box box-3">Box 3</figure>
-    <figure class="box box-4">Box 4</figure>
-  </div>
-
-
-
-  <section class="login-form  wrapper">
-
-
-      <form action="login" method="post">
-
-
-        <label for="username">Username</label> 
-        <input type="text" name="username" id="username">
-
-
-
-        <label for="password">Password</label>
-        <input type="text" name="password" id="password">
-      </form>
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-
-
-
-</body>
-
+				<label for="password">Password</label>
+				<input type="text" name="password" id="password" />
+			</form>
+		</section>
+	</body>
 </html>
